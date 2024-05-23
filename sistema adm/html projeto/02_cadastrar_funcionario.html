@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Projeto mercadinho/sistema adm/css projeto/02_cadastrar_funcionario.css"> <!-- CSS da sua pagina -->
+    <link rel="stylesheet" href="/Projeto mercadinho/sistema adm/padrão/menu.css"> <!-- CSS do menu -->
+    <link rel="stylesheet" href="/Projeto mercadinho/sistema adm/padrão/padrao.css"> <!-- CSS padrão -->
+
+    <!-- link do icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
+    <title>Cadastar funcionário</title>
+</head>
+
+<body>
+    <main class="section-all">  
+            <header class="nav-header">
+            <nav class="sidebar">
+                <div class="logo">
+                  <img src="/Projeto mercadinho/sistema adm/padrão/logo.png" alt="Logo da Empresa">
+                </div>
+                <ul>
+                  <li><a href="/Projeto mercadinho/sistema adm/html projeto/01_home.html"><span class="material-icons-outlined">home</span>Home</a></li>
+                    <li><a href="/Projeto mercadinho/sistema adm/html projeto/03_cadastrar_produto.html"><span class="material-icons-outlined">add_circle_outline</span> Cadastrar produtos</a></li>
+                    <li><a href="/Projeto mercadinho/sistema adm/html projeto/04_entrada_produto.html"><span class="material-icons">north_east</span> Entradas</a></li>
+                    <li><a href="/Projeto mercadinho/sistema adm/html projeto/01_home.html"><span class="material-icons">south_west</span> Saídas</a></li>
+                    <li><a href="/Projeto mercadinho/sistema adm/html projeto/05_caixa.html" ><span class="material-icons">attach_money</span> Abrir caixa</a></li>
+                    <li><a href="/Projeto mercadinho/sistema adm/html projeto/01_home.html"><span class="material-icons-outlined">check_circle</span> Pedidos realizados</a></li>
+                    <li><a href="/Projeto mercadinho/sistema adm/html projeto/01_home.html"><span class="material-icons-outlined">leaderboard</span> Dashboard</a></li>
+                    <li><a href="/Projeto mercadinho/sistema adm/html projeto/02_cadastrar_funcionario.html"id="activate"><span class="material-icons">people</span> Ver funcionários</a></li>
+              </ul>
+                <div class="bottom-section">
+                  <div class="icon-end">
+                    <span class="material-icons">account_circle</span>
+                  </div>
+                  <p id="first">Nome</p>
+                  <p id="second">xxxx@gggg.ccc</p>
+                  <div class="buttons-container">
+                    <button>
+                        <span class="material-icons" id="iconOne">settings</span>
+                    </button>
+                    <button>
+                        <span class="material-icons" id="iconTwo">logout</span>
+                    </button>
+                </div>
+                
+                </div>
+          </nav>
+        </header>
+            <article class="section-one">
+                <section class="section-main">
+                    <div><h1><span class="material-icons">reply_all</span> Cadastrar funcionários</h1><hr></hr></div>
+                    <div><h2>Dados do funcionário</h2></div>
+            
+                    <div class="form">
+                        
+                        <div><label for="name"> Nome:</label><input id="name" class="quebra-linha" type="text" placeholder="digite" required></div>
+                       
+                        <div><label for="lastname"> Sobrenome:</label><input id="lastname" class="quebra-linha" type="text" placeholder="digite" required></div>
+
+                        <div><label for="email"> E-mail:</label><input id="email" class="quebra-linha" type="email" placeholder="xxxx@xxxx.com" required></div>
+
+                        <div><label for="number"> Contato:</label><input id="number" class="quebra-linha" type="tel" placeholder="(xx)xxxx-xxxx"></div>
+                        
+                        <div><label for="password"> Senha:</label><input id="password" class="quebra-linha" type="password" placeholder="crie uma senha"></div>
+                       
+                        <div><label for="checkPassword">Senha:</label><input id="checkPassword" class="quebra-linha" type="password" placeholder="confirme a senha"></div>
+
+                        <div><button>Cadastar funcionário</button></div>
+                    </div>
+                </section>
+            </article>
+    </main>
+</body>
+</html>
